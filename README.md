@@ -5,7 +5,7 @@ This project demonstrates a custom Shopify bundle builder using a Shopify Cart T
 ## Demonstration
 
 <video width="600" controls>
-  <source src="https://cdn.shopify.com/videos/c/o/v/82e4a485d5e646f598492681af61dbe7.mov" type="video/mp4">
+  <source src="https://cdn.shopify.com/videos/c/o/v/54f8d8b2236b438b884d8a814190230b.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
