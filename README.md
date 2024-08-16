@@ -2,6 +2,13 @@
 
 This project demonstrates a custom Shopify bundle builder using a Shopify Cart Transform function. It allows users to create a product bundle by selecting items from predefined product collections. Once selected, these items are added to the cart as a bundled product with a discounted price.
 
+## Demonstration
+
+<video controls>
+  <source src="https://cdn.shopify.com/videos/c/o/v/82e4a485d5e646f598492681af61dbe7.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Prerequisites
 
 Before you begin, you'll need the following:
