@@ -1,0 +1,64 @@
+{
+  "cart": {
+    "lines": [
+      {
+        "id": "gid://shopify/CartLine/1",
+        "quantity": 2,
+        "merchandise": {
+          "__typename": "ProductVariant",
+          "id": "gid://shopify/ProductVariant/1234567890",
+          "title": "Sample Product",
+          "product": {
+            "id": "gid://shopify/Product/0987654321",
+            "title": "Sample Parent Product"
+          },
+          "bundleComponentReference": {
+            "value": "component_reference_value"
+          }
+        },
+        "cost": {
+          "amountPerQuantity": {
+            "amount": "29.99",
+            "currencyCode": "USD"
+          },
+          "totalAmount": {
+            "amount": "59.98",
+            "currencyCode": "USD"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/CartLine/2",
+        "quantity": 1,
+        "merchandise": {
+          "__typename": "ProductVariant",
+          "id": "gid://shopify/ProductVariant/2233445566",
+          "title": "Another Sample Product",
+          "product": {
+            "id": "gid://shopify/Product/1122334455",
+            "title": "Another Parent Product"
+          },
+          "bundleComponentReference": {
+            "value": "component_reference_value"
+          }
+        },
+        "cost": {
+          "amountPerQuantity": {
+            "amount": "19.99",
+            "currencyCode": "USD"
+          },
+          "totalAmount": {
+            "amount": "19.99",
+            "currencyCode": "USD"
+          }
+        }
+      }
+    ]
+  },
+  "cartTransform": {
+    "parentBundleID": {
+      "value": "gid://shopify/ProductVariant/4455667788"
+    }
+  },
+  "presentmentCurrencyRate": "1.0"
+}

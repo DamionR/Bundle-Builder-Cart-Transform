@@ -1,0 +1,20 @@
+query RunInput {
+  cart {
+    lines {
+      id
+      quantity
+      cost {
+        subtotalAmount {
+          amount
+        }
+      }
+      merchandise {
+        ... on ProductVariant {
+          metafield(namespace: "custom", key: "bundle_component_reference") {
+            value
+          }
+        }
+      }
+    }
+  }
+}
